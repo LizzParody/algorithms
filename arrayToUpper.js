@@ -6,7 +6,7 @@ function toUpper(arr) {
 
 console.log(myArray.map(toUpper));
 
-//Another way
+//Another way using map method
 
 var myArray = ["melon","banana","apple","orange","lemon"];
 
