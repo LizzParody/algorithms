@@ -1,3 +1,5 @@
+//Convert the words in an array to upper case
+
 var myArray = ["melon","banana","apple","orange","lemon"];
 
 function toUpper(arr) {
