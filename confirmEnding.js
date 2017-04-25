@@ -1,3 +1,5 @@
+//Confirm if a string ends with the given target string (second argument, target).
+
 function confirmEnding(str, target) {
   return str.substr(-target.length) === target;
 }
