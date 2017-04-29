@@ -1,3 +1,4 @@
+//To get the highest number in an array
 var myArray = [3, 5, 9, 2];
 
 function getHighestNum(arr){
