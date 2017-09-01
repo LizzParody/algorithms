@@ -9,10 +9,10 @@ console.log(confirmEnding("He has to give me a new name", "name"));
 
 //Other way using endsWith method
 
-function endsdWith(str, target) {
-  return str.endsWith(n);
+function confirmEnding2(str, target) {
+  return str.endsWith(target);
 }
-console.log(confirmEnding("Bastian", "n"));
-console.log(confirmEnding("He has to give me a new name", "name"));
+console.log(confirmEnding2("Bastian", "n"));
+console.log(confirmEnding2("He has to give me a new name", "name"));
 
 
