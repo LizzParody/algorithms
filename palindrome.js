@@ -3,11 +3,11 @@ function palindrome(str) {
   str = str.toLowerCase().replace(/[\W_,.]/g,'');
   len = str.length - 1;
   for(var i = 0; i < len/2; i++){
-    if(str[i] === str[len - i]){
-      return true;
+    if(str[i] !== str[len - i]){
+      return false;
     }
   }
-  return false;
+  return true;
 }
 
 console.log(palindrome("noon"));
