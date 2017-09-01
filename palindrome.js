@@ -1,10 +1,13 @@
 //Check if a word is palindrome (a word or sentence that's spelled the same way both forward and backward)
-function palindrome(word) {
-   if (word == word.split("").reverse().join("")){
-    return true;
-   } else {
-    return false;
-   }
+function palindrome(str) {
+  str = str.toLowerCase().replace(/[\W_,.]/g,'');
+  len = str.length - 1;
+  for(var i = 0; i < len/2; i++){
+    if(str[i] === str[len - i]){
+      return true;
+    }
+  }
+  return false;
 }
 
 console.log(palindrome("noon"));
